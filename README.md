@@ -1,16 +1,32 @@
-# monexa
+# Monexa
 
-A new Flutter project.
+Monexa is a financial tracking and budgeting application built using Flutter. It helps users efficiently manage their personal finances, track expenses, and stay on top of their financial goals.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project serves as a starting point for developing the Monexa Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Set up your preferred code editor (e.g., [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio))
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/monexa.git
+   cd monexa
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the application:
+   ```bash
+   flutter run
+   ```
