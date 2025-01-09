@@ -2,6 +2,8 @@
 
 Monexa is a financial tracking and budgeting application built using Flutter. It helps users efficiently manage their personal finances, track expenses, and stay on top of their financial goals.
 
+![Monexa Preview](assets/images/monexa_preview.png)
+
 ## Getting Started
 
 This project serves as a starting point for developing the Monexa Flutter application.
