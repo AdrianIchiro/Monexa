@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:monexa/Page/category_page.dart';
 import 'package:monexa/Page/home_page.dart';
+import 'package:monexa/Page/transcation_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -47,7 +48,14 @@ class _MainPageState extends State<MainPage> {
       floatingActionButton: Visibility(
         visible: (currentIndex == 0) ? true : false,
         child: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context)
+                .push(
+                    MaterialPageRoute(builder: (context) => TranscationPage()))
+                .then((onvalue) {
+              setState(() {});
+            });
+          },
           backgroundColor: Colors.green,
           child: Icon(
             Icons.add,
